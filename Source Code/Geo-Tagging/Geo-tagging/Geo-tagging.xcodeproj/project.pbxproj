@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CFBC26D9CBFDA70FD2AB765 /* libPods-Geo-tagging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 470277A457226BF99C2CEFFD /* libPods-Geo-tagging.a */; };
+		BCC7FC1C2221A46300AA59A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7FC1B2221A46300AA59A7 /* AppDelegate.m */; };
+		BCC7FC222221A46300AA59A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC7FC202221A46300AA59A7 /* Main.storyboard */; };
+		BCC7FC242221A46700AA59A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC7FC232221A46700AA59A7 /* Assets.xcassets */; };
+		BCC7FC272221A46700AA59A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC7FC252221A46700AA59A7 /* LaunchScreen.storyboard */; };
+		BCC7FC2A2221A46700AA59A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7FC292221A46700AA59A7 /* main.m */; };
+		BCC7FC322221A4C600AA59A7 /* GTMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7FC312221A4C600AA59A7 /* GTMapViewController.m */; };
+		BCC7FC342221A99500AA59A7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BCC7FC332221A99500AA59A7 /* Podfile */; };
+		BCC7FC3D222248FE00AA59A7 /* GTUtilty.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7FC3C222248FE00AA59A7 /* GTUtilty.m */; };
+		BCC7FC4322226E0B00AA59A7 /* GTMapMarkerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7FC4222226E0B00AA59A7 /* GTMapMarkerView.m */; };
+		BCC7FC4522226E1900AA59A7 /* GTMapMarkerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCC7FC4422226E1900AA59A7 /* GTMapMarkerView.xib */; };
+		BCC7FC492222713800AA59A7 /* GTModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7FC482222713800AA59A7 /* GTModuleManager.m */; };
+		BCC7FC4C2222715D00AA59A7 /* GTDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7FC4B2222715D00AA59A7 /* GTDatabaseManager.m */; };
+		BCC7FC552222749100AA59A7 /* GTUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7FC542222749100AA59A7 /* GTUserDefaults.m */; };
+		BCC7FC5A2222809300AA59A7 /* GTTagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7FC592222809300AA59A7 /* GTTagModel.m */; };
+		BCC7FC5E2222882B00AA59A7 /* GTTagCoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCC7FC5C2222882B00AA59A7 /* GTTagCoreDataModel.xcdatamodeld */; };
+		BCC7FC6A22228AA800AA59A7 /* GTCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7FC6922228AA800AA59A7 /* GTCoreDataManager.m */; };
+		BCC7FC6F22229B9D00AA59A7 /* GTTagListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7FC6E22229B9D00AA59A7 /* GTTagListViewController.m */; };
+		BCC7FC742222A54500AA59A7 /* GTTagListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7FC722222A54500AA59A7 /* GTTagListTableViewCell.m */; };
+		BCC7FC752222A54500AA59A7 /* GTTagListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCC7FC732222A54500AA59A7 /* GTTagListTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2748E3E8A83A757DEF0B5410 /* Pods-Geo-tagging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geo-tagging.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Geo-tagging/Pods-Geo-tagging.debug.xcconfig"; sourceTree = "<group>"; };
+		470277A457226BF99C2CEFFD /* libPods-Geo-tagging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Geo-tagging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC7FC172221A46300AA59A7 /* Geo-tagging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geo-tagging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC7FC1A2221A46300AA59A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCC7FC1B2221A46300AA59A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCC7FC212221A46300AA59A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCC7FC232221A46700AA59A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCC7FC262221A46700AA59A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCC7FC282221A46700AA59A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC7FC292221A46700AA59A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCC7FC302221A4C600AA59A7 /* GTMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMapViewController.h; sourceTree = "<group>"; };
+		BCC7FC312221A4C600AA59A7 /* GTMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTMapViewController.m; sourceTree = "<group>"; };
+		BCC7FC332221A99500AA59A7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCC7FC3B222248FE00AA59A7 /* GTUtilty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTUtilty.h; sourceTree = "<group>"; };
+		BCC7FC3C222248FE00AA59A7 /* GTUtilty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTUtilty.m; sourceTree = "<group>"; };
+		BCC7FC4122226E0B00AA59A7 /* GTMapMarkerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMapMarkerView.h; sourceTree = "<group>"; };
+		BCC7FC4222226E0B00AA59A7 /* GTMapMarkerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTMapMarkerView.m; sourceTree = "<group>"; };
+		BCC7FC4422226E1900AA59A7 /* GTMapMarkerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GTMapMarkerView.xib; sourceTree = "<group>"; };
+		BCC7FC472222713800AA59A7 /* GTModuleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTModuleManager.h; sourceTree = "<group>"; };
+		BCC7FC482222713800AA59A7 /* GTModuleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTModuleManager.m; sourceTree = "<group>"; };
+		BCC7FC4A2222715D00AA59A7 /* GTDatabaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTDatabaseManager.h; sourceTree = "<group>"; };
+		BCC7FC4B2222715D00AA59A7 /* GTDatabaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTDatabaseManager.m; sourceTree = "<group>"; };
+		BCC7FC532222749100AA59A7 /* GTUserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTUserDefaults.h; sourceTree = "<group>"; };
+		BCC7FC542222749100AA59A7 /* GTUserDefaults.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTUserDefaults.m; sourceTree = "<group>"; };
+		BCC7FC582222809300AA59A7 /* GTTagModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTTagModel.h; sourceTree = "<group>"; };
+		BCC7FC592222809300AA59A7 /* GTTagModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTTagModel.m; sourceTree = "<group>"; };
+		BCC7FC5D2222882B00AA59A7 /* GTTagCoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GTTagCoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		BCC7FC6822228AA800AA59A7 /* GTCoreDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTCoreDataManager.h; sourceTree = "<group>"; };
+		BCC7FC6922228AA800AA59A7 /* GTCoreDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTCoreDataManager.m; sourceTree = "<group>"; };
+		BCC7FC6D22229B9D00AA59A7 /* GTTagListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTTagListViewController.h; sourceTree = "<group>"; };
+		BCC7FC6E22229B9D00AA59A7 /* GTTagListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTTagListViewController.m; sourceTree = "<group>"; };
+		BCC7FC712222A54500AA59A7 /* GTTagListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTTagListTableViewCell.h; sourceTree = "<group>"; };
+		BCC7FC722222A54500AA59A7 /* GTTagListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTTagListTableViewCell.m; sourceTree = "<group>"; };
+		BCC7FC732222A54500AA59A7 /* GTTagListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GTTagListTableViewCell.xib; sourceTree = "<group>"; };
+		C76BCB9A2E55D3EB06EAC1B0 /* Pods-Geo-tagging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geo-tagging.release.xcconfig"; path = "Pods/Target Support Files/Pods-Geo-tagging/Pods-Geo-tagging.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCC7FC142221A46300AA59A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFBC26D9CBFDA70FD2AB765 /* libPods-Geo-tagging.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7922E74D2CF3AE954C990FCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2748E3E8A83A757DEF0B5410 /* Pods-Geo-tagging.debug.xcconfig */,
+				C76BCB9A2E55D3EB06EAC1B0 /* Pods-Geo-tagging.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BCC7FC0E2221A46200AA59A7 = {
+			isa = PBXGroup;
+			children = (
+				BCC7FC192221A46300AA59A7 /* Geo-tagging */,
+				BCC7FC182221A46300AA59A7 /* Products */,
+				7922E74D2CF3AE954C990FCD /* Pods */,
+				E24ED76714E02EFF80DEC754 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCC7FC182221A46300AA59A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7FC172221A46300AA59A7 /* Geo-tagging.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCC7FC192221A46300AA59A7 /* Geo-tagging */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7FC5B222287DE00AA59A7 /* Core Data Model */,
+				BCC7FC332221A99500AA59A7 /* Podfile */,
+				BCC7FC1A2221A46300AA59A7 /* AppDelegate.h */,
+				BCC7FC1B2221A46300AA59A7 /* AppDelegate.m */,
+				BCC7FC562222807D00AA59A7 /* Model */,
+				BCC7FC462222711F00AA59A7 /* Manager */,
+				BCC7FC3F22226DCF00AA59A7 /* Custom View */,
+				BCC7FC3622223AF000AA59A7 /* Helper Classes */,
+				BCC7FC3522223AE500AA59A7 /* Controllers */,
+				BCC7FC202221A46300AA59A7 /* Main.storyboard */,
+				BCC7FC232221A46700AA59A7 /* Assets.xcassets */,
+				BCC7FC252221A46700AA59A7 /* LaunchScreen.storyboard */,
+				BCC7FC282221A46700AA59A7 /* Info.plist */,
+				BCC7FC292221A46700AA59A7 /* main.m */,
+			);
+			path = "Geo-tagging";
+			sourceTree = "<group>";
+		};
+		BCC7FC3522223AE500AA59A7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7FC6C22229B7A00AA59A7 /* Tag Listing View Controller */,
+				BCC7FC6B22229B3F00AA59A7 /* Map View Controller */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BCC7FC3622223AF000AA59A7 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7FC3B222248FE00AA59A7 /* GTUtilty.h */,
+				BCC7FC3C222248FE00AA59A7 /* GTUtilty.m */,
+			);
+			path = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		BCC7FC3F22226DCF00AA59A7 /* Custom View */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7FC702222A52800AA59A7 /* List View Cell */,
+				BCC7FC4022226DD900AA59A7 /* Map View */,
+			);
+			path = "Custom View";
+			sourceTree = "<group>";
+		};
+		BCC7FC4022226DD900AA59A7 /* Map View */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7FC4122226E0B00AA59A7 /* GTMapMarkerView.h */,
+				BCC7FC4222226E0B00AA59A7 /* GTMapMarkerView.m */,
+				BCC7FC4422226E1900AA59A7 /* GTMapMarkerView.xib */,
+			);
+			path = "Map View";
+			sourceTree = "<group>";
+		};
+		BCC7FC462222711F00AA59A7 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7FC472222713800AA59A7 /* GTModuleManager.h */,
+				BCC7FC482222713800AA59A7 /* GTModuleManager.m */,
+				BCC7FC512222745500AA59A7 /* Database */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		BCC7FC512222745500AA59A7 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7FC4A2222715D00AA59A7 /* GTDatabaseManager.h */,
+				BCC7FC4B2222715D00AA59A7 /* GTDatabaseManager.m */,
+				BCC7FC67222289AD00AA59A7 /* Core Data */,
+				BCC7FC522222746D00AA59A7 /* User Defaults */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		BCC7FC522222746D00AA59A7 /* User Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7FC532222749100AA59A7 /* GTUserDefaults.h */,
+				BCC7FC542222749100AA59A7 /* GTUserDefaults.m */,
+			);
+			path = "User Defaults";
+			sourceTree = "<group>";
+		};
+		BCC7FC562222807D00AA59A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7FC572222808300AA59A7 /* GTTagModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCC7FC572222808300AA59A7 /* GTTagModel */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7FC582222809300AA59A7 /* GTTagModel.h */,
+				BCC7FC592222809300AA59A7 /* GTTagModel.m */,
+			);
+			path = GTTagModel;
+			sourceTree = "<group>";
+		};
+		BCC7FC5B222287DE00AA59A7 /* Core Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7FC5C2222882B00AA59A7 /* GTTagCoreDataModel.xcdatamodeld */,
+			);
+			path = "Core Data Model";
+			sourceTree = "<group>";
+		};
+		BCC7FC67222289AD00AA59A7 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7FC6822228AA800AA59A7 /* GTCoreDataManager.h */,
+				BCC7FC6922228AA800AA59A7 /* GTCoreDataManager.m */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		BCC7FC6B22229B3F00AA59A7 /* Map View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7FC302221A4C600AA59A7 /* GTMapViewController.h */,
+				BCC7FC312221A4C600AA59A7 /* GTMapViewController.m */,
+			);
+			path = "Map View Controller";
+			sourceTree = "<group>";
+		};
+		BCC7FC6C22229B7A00AA59A7 /* Tag Listing View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7FC6D22229B9D00AA59A7 /* GTTagListViewController.h */,
+				BCC7FC6E22229B9D00AA59A7 /* GTTagListViewController.m */,
+			);
+			path = "Tag Listing View Controller";
+			sourceTree = "<group>";
+		};
+		BCC7FC702222A52800AA59A7 /* List View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7FC712222A54500AA59A7 /* GTTagListTableViewCell.h */,
+				BCC7FC722222A54500AA59A7 /* GTTagListTableViewCell.m */,
+				BCC7FC732222A54500AA59A7 /* GTTagListTableViewCell.xib */,
+			);
+			path = "List View Cell";
+			sourceTree = "<group>";
+		};
+		E24ED76714E02EFF80DEC754 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				470277A457226BF99C2CEFFD /* libPods-Geo-tagging.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCC7FC162221A46300AA59A7 /* Geo-tagging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC7FC2D2221A46700AA59A7 /* Build configuration list for PBXNativeTarget "Geo-tagging" */;
+			buildPhases = (
+				37F6C4C8110CE39F484D3186 /* [CP] Check Pods Manifest.lock */,
+				BCC7FC132221A46300AA59A7 /* Sources */,
+				BCC7FC142221A46300AA59A7 /* Frameworks */,
+				BCC7FC152221A46300AA59A7 /* Resources */,
+				F79C0EB3D60768D26828E1B8 /* [CP] Embed Pods Frameworks */,
+				196F35E15E293F4F0864A52F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Geo-tagging";
+			productName = "Geo-tagging";
+			productReference = BCC7FC172221A46300AA59A7 /* Geo-tagging.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCC7FC0F2221A46200AA59A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GT;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Ankit;
+				TargetAttributes = {
+					BCC7FC162221A46300AA59A7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = BCC7FC122221A46200AA59A7 /* Build configuration list for PBXProject "Geo-tagging" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCC7FC0E2221A46200AA59A7;
+			productRefGroup = BCC7FC182221A46300AA59A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCC7FC162221A46300AA59A7 /* Geo-tagging */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCC7FC152221A46300AA59A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC7FC272221A46700AA59A7 /* LaunchScreen.storyboard in Resources */,
+				BCC7FC4522226E1900AA59A7 /* GTMapMarkerView.xib in Resources */,
+				BCC7FC242221A46700AA59A7 /* Assets.xcassets in Resources */,
+				BCC7FC342221A99500AA59A7 /* Podfile in Resources */,
+				BCC7FC222221A46300AA59A7 /* Main.storyboard in Resources */,
+				BCC7FC752222A54500AA59A7 /* GTTagListTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		196F35E15E293F4F0864A52F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Geo-tagging/Pods-Geo-tagging-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Geo-tagging/Pods-Geo-tagging-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37F6C4C8110CE39F484D3186 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Geo-tagging-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F79C0EB3D60768D26828E1B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Geo-tagging/Pods-Geo-tagging-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCC7FC132221A46300AA59A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC7FC5A2222809300AA59A7 /* GTTagModel.m in Sources */,
+				BCC7FC3D222248FE00AA59A7 /* GTUtilty.m in Sources */,
+				BCC7FC742222A54500AA59A7 /* GTTagListTableViewCell.m in Sources */,
+				BCC7FC6F22229B9D00AA59A7 /* GTTagListViewController.m in Sources */,
+				BCC7FC4322226E0B00AA59A7 /* GTMapMarkerView.m in Sources */,
+				BCC7FC6A22228AA800AA59A7 /* GTCoreDataManager.m in Sources */,
+				BCC7FC492222713800AA59A7 /* GTModuleManager.m in Sources */,
+				BCC7FC5E2222882B00AA59A7 /* GTTagCoreDataModel.xcdatamodeld in Sources */,
+				BCC7FC552222749100AA59A7 /* GTUserDefaults.m in Sources */,
+				BCC7FC322221A4C600AA59A7 /* GTMapViewController.m in Sources */,
+				BCC7FC4C2222715D00AA59A7 /* GTDatabaseManager.m in Sources */,
+				BCC7FC2A2221A46700AA59A7 /* main.m in Sources */,
+				BCC7FC1C2221A46300AA59A7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCC7FC202221A46300AA59A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC7FC212221A46300AA59A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCC7FC252221A46700AA59A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC7FC262221A46700AA59A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCC7FC2B2221A46700AA59A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCC7FC2C2221A46700AA59A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCC7FC2E2221A46700AA59A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2748E3E8A83A757DEF0B5410 /* Pods-Geo-tagging.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Geo-tagging/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ankit.Geo-tagging";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCC7FC2F2221A46700AA59A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C76BCB9A2E55D3EB06EAC1B0 /* Pods-Geo-tagging.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Geo-tagging/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ankit.Geo-tagging";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCC7FC122221A46200AA59A7 /* Build configuration list for PBXProject "Geo-tagging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC7FC2B2221A46700AA59A7 /* Debug */,
+				BCC7FC2C2221A46700AA59A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC7FC2D2221A46700AA59A7 /* Build configuration list for PBXNativeTarget "Geo-tagging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC7FC2E2221A46700AA59A7 /* Debug */,
+				BCC7FC2F2221A46700AA59A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BCC7FC5C2222882B00AA59A7 /* GTTagCoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BCC7FC5D2222882B00AA59A7 /* GTTagCoreDataModel.xcdatamodel */,
+			);
+			currentVersion = BCC7FC5D2222882B00AA59A7 /* GTTagCoreDataModel.xcdatamodel */;
+			path = GTTagCoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BCC7FC0F2221A46200AA59A7 /* Project object */;
+}
